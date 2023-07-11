@@ -9,4 +9,4 @@ Portfolio website using HTML, CSS, Javascript for interactivity and usage of git
 - Use Git version control.
 - Use the command line and file navigation.
 - Develop locally on your computer.
-- Deploy your site to the web using GitHub Pages.# profile-website
+- Deploy your site to the web using GitHub Pages.
