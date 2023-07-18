@@ -13,6 +13,7 @@ body  {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .menu {
@@ -46,6 +47,9 @@ a {
 }
 
 .toggle {
+    display: none;
+}
+#cancle {
     display: none;
 }
 
@@ -92,13 +96,29 @@ img {
     border-radius: 5px;
 }
 
-
 .CV-Button:hover{
     background-color: #006d6d;
     color: white;
     text-decoration: none;
     transition:all .25s;
 }
+
+/*project section*/
+#project1 {
+    display: none;
+}
+#project2 {
+    display: none;
+}
+#project3 {
+    display: none;
+}
+
+
+h3 {
+    margin: 10px;
+}
+
 
 
 
@@ -111,15 +131,31 @@ img {
         order: 1;
     }
     .item {
-        display: none;
-        order: 3;
+        order: 4;
         text-align: center;
         width: 100%;
         margin-top: 10px;
     }
+
+    #about {
+        display: none;
+    }
+    #projects {
+        display: none;
+    }
+    #links {
+        display: none;
+    }
+    #toggle {
+        display: block;
+    }
+    #cancle {
+        order: 3;
+        display: none;
+    }
+
     .toggle {
         order: 2;
-        display: block;
     }
 
     /*phone aboout-me*/

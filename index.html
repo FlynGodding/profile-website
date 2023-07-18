@@ -14,15 +14,16 @@
         <div class="header-container">
             <ul class="menu">
                 <li class="name">Flyn Godding</li>
-                <li class="item about"><button class="nav-button">about</button></li>
-                <li class="item projects"><button class="nav-button">projects</button></li>
-                <li class="item links"><button class="nav-button">links</button></li>
-                <li class="toggle"><span class="dots">°°°</span></li>
+                <li id="about" class="item about" href="about-me-section"><button class="nav-button">about</button></li>
+                <li id="projects" class="item projects" href="projects-section"><button class="nav-button">projects</button></li>
+                <li id="links" class="item links"><button class="nav-button">links</button></li>
+                <li id="toggle" class="toggle"><a class="dots">°°°</a></li>
+                <li id="cancle" class="cancle"><a class="cross">✖</a></li>
             </ul>
         </div>
     </header>
     <main id="main">
-        <section id="about-me">
+        <section id="about-me-section">
             <div class="about-me-container">
                 <div class="about-me-text-container">
                     <h2>about me</h2>
@@ -45,12 +46,32 @@
                 </div>
                 <img class ="foto" src="resources/images/foto van mij in augustus.jpg">
             </div> 
+        </section>
+        <section id="project-section">
+            <div class="projects-container">
+                <h2>project</h2>
+                    <h3>project 1 <a id="link1">+</a></h3>
+                    <div id="project1" class="project-info-container">
+                        <img>
+                        <p>project 1 description <a id="remove1">✖</a></p>
+                    </div>
+                    <h3>project 2 <a id="link2">+</a></h3>
+                    <div id="project2" class="project-info-container">
+                        <img>
+                        <p>project 2 description <a id="remove2">✖</a></p>
+                    </div>
+                    <h3>project 3 <a id="link3">+</a></h3>
+                    <div id="project3" class="project-info-container">
+                        <img>
+                        <p>project 3 description <a id="remove3">✖</a></p>
+                    </div>
+            </div>
 
         </section>
     </main>
     <footer id="footer">
 
     </footer>
-    
+    <script src="resources/JS/script.js"></script>
 </body>
 </html>
