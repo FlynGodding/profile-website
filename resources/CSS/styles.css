@@ -5,7 +5,12 @@
 }
 
 /* Banner full-screen */
-body  {
+main  {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 50px;
+}
+header {
     max-width: 900px;
     margin: auto;
     padding: 0 50px;
@@ -114,12 +119,41 @@ img {
     display: none;
 }
 
-
 h3 {
     margin: 10px;
 }
 
 
+/*links section*/
+footer {
+    background: gray;
+}
+.links-section-container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.email-png {
+    width: 30px;
+}
+.github-png {
+    width: 30px;
+}
+.linkedin-png {
+    width: 30px;
+}
+
+.email {
+    margin: auto;
+}
+.github {
+    margin: auto;
+}
+.linkedin {
+    margin: auto;
+}
 
 
 @media all and (max-width: 480px) {
